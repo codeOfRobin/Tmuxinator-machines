@@ -1,0 +1,20 @@
+# /Users/robinmalhotra/.config/tmuxinator/macmini.yml
+
+name: macmini
+root: ~/
+
+windows:
+  - editor:
+      layout: a4a4,159x41,0,0[159x19,0,0{31x19,0,0,0,31x19,32,0,15,31x19,64,0,14,31x19,96,0,13,31x19,128,0,12},159x21,0,20{31x21,0,20,4,31x21,32,20,11,31x21,64,20,9,31x21,96,20,7,31x21,128,20,5}]
+      synchronize: true
+      panes:
+        - ssh ip1
+        - ssh ip2
+        - ssh ip3
+        - ssh ip4
+        - ssh ip5
+        - ssh ip6
+        - ssh ip7
+        - ssh ip8
+        - ssh ip9
+        - ssh ip10
